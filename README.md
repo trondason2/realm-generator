@@ -14,9 +14,9 @@ In a single click, you can generate a complex, interwoven realm filled with intr
 Building the code is easy enough. Assuming the use of Python 3, check out the code, change to the source directory, and then:
 
     python3 -m venv venv
-    source venv/bin/activate
+    venv\Scripts\activate.bat
     pip3 install -r requirements.txt
-    export FLASK_APP=app.py
+    set FLASK_APP=app.py
     flask run
 
 And, you're running. Easy peasy.
